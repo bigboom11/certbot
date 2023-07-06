@@ -26,6 +26,9 @@ Certbot is meant to be run directly on your web server on the command line, not 
 yum install epel-release
 yum install certbot
 certbot certonly --standalone -d xxx.xxx.xx
+
+Certificate is saved at: /etc/letsencrypt/live/xxx.xxxx.xx/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/xxx.xxxx.xx/privkey.pem
 ```
 
 Contributing
