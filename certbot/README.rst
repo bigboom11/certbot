@@ -22,6 +22,12 @@ The best way to get started is to use our `interactive guide <https://certbot.ef
 
 Certbot is meant to be run directly on your web server on the command line, not on your personal computer. If you’re using a hosted service and don’t have direct access to your web server, you might not be able to use Certbot. Check with your hosting provider for documentation about uploading certificates or using certificates issued by Let’s Encrypt.
 
+```sh
+yum install epel-release
+yum install certbot
+certbot certonly --standalone -d xxx.xxx.xx
+```
+
 Contributing
 ------------
 
